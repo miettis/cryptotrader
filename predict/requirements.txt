@@ -1,0 +1,13 @@
+fastapi==0.109.0
+joblib==1.2.0
+lightgbm==4.1.0
+numpy==1.24.2
+pandas==1.5.3
+psycopg2==2.9.9
+pydantic==2.3.0
+pyodbc==5.0.1
+scikit-learn==1.2.1
+scipy==1.10.1
+SQLAlchemy==2.0.25
+tensorflow
+uvicorn==0.27.0

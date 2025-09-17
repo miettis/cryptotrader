@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Web", "CryptoTrader.Web\CryptoTrader.Web.csproj", "{130F3A59-F0A4-4FED-836F-EC1B34DA1469}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Data", "CryptoTrader.Data\CryptoTrader.Data.csproj", "{8DD7A62B-6BF9-4F79-B5F7-F56A24996ADA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Import", "CryptoTrader.Import\CryptoTrader.Import.csproj", "{C15501AC-79D8-4C5A-AB5B-0A9CC1F1A5FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.ML.Console", "CryptoTrader.ML.Console\CryptoTrader.ML.Console.csproj", "{30108138-31A5-46F7-980A-9AC611258638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Console", "CryptoTrader.Console\CryptoTrader.Console.csproj", "{AD0D72A3-C330-4A29-86EE-E829F722BDB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.BackTesting", "CryptoTrader.BackTesting\CryptoTrader.BackTesting.csproj", "{FDE01211-338D-4A0C-A2CA-94D261C4CAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.Tax", "CryptoTrader.Tax\CryptoTrader.Tax.csproj", "{CDFDA58E-1664-43AB-9AC7-A4C27B2C8E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130F3A59-F0A4-4FED-836F-EC1B34DA1469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130F3A59-F0A4-4FED-836F-EC1B34DA1469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130F3A59-F0A4-4FED-836F-EC1B34DA1469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130F3A59-F0A4-4FED-836F-EC1B34DA1469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD7A62B-6BF9-4F79-B5F7-F56A24996ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD7A62B-6BF9-4F79-B5F7-F56A24996ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD7A62B-6BF9-4F79-B5F7-F56A24996ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD7A62B-6BF9-4F79-B5F7-F56A24996ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15501AC-79D8-4C5A-AB5B-0A9CC1F1A5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15501AC-79D8-4C5A-AB5B-0A9CC1F1A5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15501AC-79D8-4C5A-AB5B-0A9CC1F1A5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15501AC-79D8-4C5A-AB5B-0A9CC1F1A5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30108138-31A5-46F7-980A-9AC611258638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30108138-31A5-46F7-980A-9AC611258638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30108138-31A5-46F7-980A-9AC611258638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30108138-31A5-46F7-980A-9AC611258638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0D72A3-C330-4A29-86EE-E829F722BDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0D72A3-C330-4A29-86EE-E829F722BDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0D72A3-C330-4A29-86EE-E829F722BDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0D72A3-C330-4A29-86EE-E829F722BDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE01211-338D-4A0C-A2CA-94D261C4CAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE01211-338D-4A0C-A2CA-94D261C4CAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE01211-338D-4A0C-A2CA-94D261C4CAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE01211-338D-4A0C-A2CA-94D261C4CAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFDA58E-1664-43AB-9AC7-A4C27B2C8E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFDA58E-1664-43AB-9AC7-A4C27B2C8E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFDA58E-1664-43AB-9AC7-A4C27B2C8E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFDA58E-1664-43AB-9AC7-A4C27B2C8E33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D4BDDA6-5B1F-46EF-B07B-57CD35BBE93A}
+	EndGlobalSection
+EndGlobal

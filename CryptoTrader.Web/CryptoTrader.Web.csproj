@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>697c716d-2045-4001-92f0-d1edf384d735</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	  <DockerfileRunArguments>--network mike</DockerfileRunArguments>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\PriceMinuteStreamService.cs" />
+    <Compile Remove="Services\PriceMinuteUpdateService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Binance.Net" Version="9.4.0" />
+    <PackageReference Include="Cronos" Version="0.8.1" />
+    <PackageReference Include="FastEndpoints" Version="5.22.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+    <PackageReference Include="NSwag.AspNetCore" Version="14.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoTrader.Data\CryptoTrader.Data.csproj" />
+  </ItemGroup>
+
+</Project>
